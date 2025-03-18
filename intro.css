@@ -1,0 +1,54 @@
+body {
+    background-image: url(Background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+    background-position: center;
+
+}
+
+.container {
+    font-family: Comic Sans MS;
+}
+
+.head {
+    padding:15px;
+    border: 5px solid black;
+    background-image: linear-gradient(to bottom right, blue, #7a7cff9a);
+    text-align: center;
+    font-size: 66px;
+    color: white;
+}
+
+.fp {
+    position: absolute;
+    padding:15px;
+    background-color: rgba(0, 0, 255, 0.76);
+    font-size:25px;
+    border-radius: 30px;
+    text-align: justify;
+    border: 5px solid black;
+}
+
+.clarkimg {
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 10;
+    position:relative;
+    height: 320px;
+    width: 330px;
+}
+
+.arrow {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 10px;
+    bottom: 20px;
+}
+
+audio {
+    position:absolute;
+    top: 85vh;
+    right: 5vh;
+}

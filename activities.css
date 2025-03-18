@@ -1,0 +1,39 @@
+body {
+    background-image: url(Background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.container {
+    font-family: Comic Sans MS;
+}
+
+table {
+    background-color: rgba(0, 128, 0, 0.668);
+    border: 5px solid black;
+    font-size: 40px;
+}
+
+.head {
+    padding:15px;
+    border: 5px solid black;
+    background-image: linear-gradient(to bottom right, green, rgba(0, 128, 0, 0.529));
+    text-align: center;
+    font-size: 66px;
+    color: white;
+}
+
+.arrow {
+    position: fixed;
+    width: 200px;
+    height: 100px;
+    left: 10px;
+    bottom: 20px;
+}
+
+audio {
+    position:fixed;
+    top: 85vh;
+    right: 5vh;
+}
