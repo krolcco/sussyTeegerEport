@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <title>Activities!</title>
+        <link rel="stylesheet" href="!activities.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="head">Lé Activities for 3rd and 4th Quarter</h1>
+
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, '3rdQuarter')"><font size="7">3rd Quarter</font></button>
+                <button class="tablinks" onclick="openCity(event, '4thQuarter')"><font size="7">4th Quarter</font></button>
+              </div>
+              
+              <div id="3rdQuarter" class="tabcontent">
+                <p><table border="5px" width="100%" align="center">
+                  <tr>
+                      <td>MAPEH Spineboard</td>
+                      <td><video width="500" height="420" autoplay controls>
+                        <source src="mapehpt.mp4" type="video/mp4">
+                        <source src="mapehpt.ogg" type="video/ogg">
+                      Your browser does not support the video tag.
+                      </video>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Christmas Party</td>
+                      <td><video height="450px" width="600px" src="XMAS.mp4" alt="SANTICLAUS" autoplay controls>
+                        <source src="XMAS.mp4" type="video/mp4">
+                        <source src="XMAS.ogg" type="video/ogg">
+                      Your browser does not support the video tag.
+                      </video>
+                    </td>
+                  </tr>
+                  <tr>
+                      <td>Research Defense</td>
+                      <td><img height="500px" width="600px" src="resdef.png" alt="Research Defense"></td>
+                  </tr>
+                  <tr>
+                      <td>Kundiman</td>
+                      <td ><video height="500px" width="500px" src="Kundiman.mp4" alt="Yanna Jyra" autoplay controls>
+                        <source src="XMAS.mp4" type="video/mp4">
+                        <source src="XMAS.ogg" type="video/ogg">
+                      Your browser does not support the video tag.
+                      </video>
+                    </td>
+                  </tr>
+              </table></p>
+              </div>
+              
+              <div id="4thQuarter" class="tabcontent">
+                <p><table border="5px" width="100%" align="center">
+                  <tr>
+                      <td>BOTB</td>
+                      <td><img height="500px" width="500px" src="BOTB.jpg" alt="Yssa Hernandez"></td>
+                  </tr>
+                  <tr>
+                      <td>YES-O ELECTION</td>
+                      <td><img height="500px" width="600px" src="yeso.jpg" alt="Teacher's Day"></td>
+                  </tr>
+                  <tr>
+                      <td>English One-Act Play Practice</td>
+                      <td><img height="500px" width="600px" src="oneactplay.jpg" alt="Polonium and Radium"></td>
+                  </tr>
+                  <tr>
+                      <td>Filipino Monologo</td>
+                      <td ><img height="500px" width="600px" src="monologo.png" alt="padresalvi"></td>
+                  </tr>
+              </table></p> 
+              </div>
+              
+              
+              
+              <script>
+              function openCity(evt, cityName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                  tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                  tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+              }
+              </script>
+            
+            <p><a href="REYES_EPORT_3to4thQTR.html"><img class="arrow" src="vintagearrow.png"></a></p>
+
+            <audio controls autoplay="autoplay" loop="loop"> 
+                <source src="The_Entertainer.mp3" type="audio/mp3">
+                <source src="The_Entertainer.mp3" type="audio/ogg">
+                <source src="The_Entertainer.mp3" type="audio/wav">
+            </audio>
+        </p>
+        </div>
+    </body>
+</html>
