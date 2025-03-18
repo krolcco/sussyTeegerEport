@@ -1,0 +1,144 @@
+body {
+    background-image: url(Paris.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top;
+    background-size: 100%;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.para1 {
+    font-size: 30px;
+    position: absolute;
+    bottom: 25vh;
+    left: 50vh;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #a87e62;
+    text-shadow: 
+        -2px -2px 0 black,  
+         2px -2px 0 black,
+        -2px  2px 0 black,
+         2px  2px 0 black;
+}
+
+.t1 {
+    position: absolute;
+    bottom: 5vh;
+    left: 50vh;
+}
+
+.th1 {
+    font-size: 50px;
+}
+
+img {
+    height: 70vh;
+    width: 50vh;
+    position: absolute;
+    bottom: 10px;
+    left: 3vh;
+}
+
+.button{
+    padding: 10px;
+    width: 70vh;
+    text-align: center;
+    font-size: 40px;
+    transition: ease-in-out;
+    transition-duration: 0.4s;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.but1{
+    color: black;
+    border: 5px solid #b07154;
+    box-shadow: inset 0 0 0 0 #b07154;
+    top: 40vh;
+    left: 50vh;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.but1:hover{
+    box-shadow: inset 700px 0 0 0 #b07154;
+    color: white;
+}
+
+.but2{
+    color: black;
+    border: 5px solid #3a2317;
+    box-shadow: inset 0 0 0 0 #3a2317;
+    top: 40vh;
+    right: 15vh;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.but2:hover{
+    box-shadow: inset 700px 0 0 0 #3a2317;
+    color: white;
+}
+
+.but3{
+    color: black;
+    border: 5px solid #683217;
+    box-shadow: inset 0 0 0 0 #683217;
+    top: 25vh;
+    left: 50vh;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.but3:hover{
+    box-shadow: inset 700px 0 0 0 #683217;
+    color: white;
+}
+
+.but4{
+    color: black;
+    border: 5px solid #f4decb;
+    box-shadow: inset 0 0 0 0 #f4decb;
+    top: 25vh;
+    right: 15vh;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.but4:hover{
+    box-shadow: inset 700px 0 0 0 #f4decb;
+    color: black;
+}
+
+.arrow {
+    width: 200px;
+    height: 100px;
+    left: 5vh;
+    bottom: 85vh;
+}
+
+audio {
+    position:absolute;
+    bottom: 85vh;
+    right: 5vh;
+}
+
+a:link {color:black;}
+a:visited {color:green;}
+a:hover {color:red;}
+a:active {color:aqua;}

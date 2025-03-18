@@ -1,0 +1,53 @@
+body {
+    background-image: url(musee.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.td {
+    color: black;
+    background-color: #a87e62;
+}
+
+.text {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+
+table {
+    background-color:#b071546c;
+    border: 5px solid black;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.head {
+    padding:15px;
+    border: 5px solid black;
+    background-color: #b07154;
+    font-size: 66px;
+    color: black;
+    text-align: center;
+}
+
+.arrow {
+    position: fixed;
+    width: 200px;
+    height: 100px;
+    left: 10px;
+    bottom: 20px;
+}
+
+audio {
+    position:fixed;
+    top: 85vh;
+    right: 5vh;
+}

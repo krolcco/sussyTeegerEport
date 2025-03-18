@@ -1,0 +1,47 @@
+body {
+    background-image: url(paris.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.fp {
+    position: absolute;
+    padding:15px;
+    background-color:#3a2317b9;
+    font-size:25px;
+    border-radius: 30px;
+    text-align: justify;
+    border: 5px solid black;
+}
+
+.head {
+    padding:15px;
+    border: 5px solid black;
+    background-color: #3a2317;
+    text-align: center;
+    font-size: 66px;
+    color: white;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.arrow {
+    position: fixed;
+    width: 200px;
+    height: 100px;
+    left: 10px;
+    bottom: 20px;
+}
+
+audio {
+    position:fixed;
+    top: 85vh;
+    right: 5vh;
+}

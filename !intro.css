@@ -1,0 +1,63 @@
+body {
+    background-image: url(plaza.png);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+    background-position: top;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+
+.head {
+    padding:15px;
+    border: 5px solid black;
+    background-color: #683217;
+    text-align: center;
+    font-size: 66px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fp {
+    position: absolute;
+    padding:15px;
+    background-color: #683217;
+    font-size:25px;
+    border-radius: 30px;
+    text-align: justify;
+    border: 5px solid black;
+}
+
+.clarkimg {
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 10;
+    position:relative;
+    height: 320px;
+    width: 330px;
+}
+
+.arrow {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 10px;
+    bottom: 20px;
+}
+
+audio {
+    position:absolute;
+    top: 85vh;
+    right: 5vh;
+}
